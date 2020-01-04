@@ -9,7 +9,7 @@
 import UIKit
 
 class AQChatImageMessageCell: UITableViewCell {
-    
+    //image cell
     let chatImage = AQImageLoader()
     let bubbleBackgroundView = UIView()
     let messageTimeLabel = UILabel()
