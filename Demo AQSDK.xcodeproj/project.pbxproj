@@ -8,130 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		DC8B8BB223C11D3800C0FECC /* Demo_AQSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = DC8B8BB023C11D3800C0FECC /* Demo_AQSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DC8B8BEE23C11F7C00C0FECC /* SocketStringReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8B8BCA23C11F7C00C0FECC /* SocketStringReader.swift */; };
-		DC8B8BEF23C11F7C00C0FECC /* SocketLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8B8BCB23C11F7C00C0FECC /* SocketLogger.swift */; };
-		DC8B8BF023C11F7C00C0FECC /* SocketExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8B8BCC23C11F7C00C0FECC /* SocketExtensions.swift */; };
-		DC8B8BF123C11F7C00C0FECC /* SSLSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8B8BCD23C11F7C00C0FECC /* SSLSecurity.swift */; };
-		DC8B8BF223C11F7C00C0FECC /* SocketTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8B8BCE23C11F7C00C0FECC /* SocketTypes.swift */; };
-		DC8B8BF323C11F7C00C0FECC /* SocketEnginePacketType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8B8BCF23C11F7C00C0FECC /* SocketEnginePacketType.swift */; };
-		DC8B8BF423C11F7C00C0FECC /* SocketParsable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8B8BD123C11F7C00C0FECC /* SocketParsable.swift */; };
-		DC8B8BF523C11F7C00C0FECC /* SocketPacket.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8B8BD223C11F7C00C0FECC /* SocketPacket.swift */; };
-		DC8B8BF623C11F7C00C0FECC /* SocketManagerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8B8BD423C11F7C00C0FECC /* SocketManagerSpec.swift */; };
-		DC8B8BF723C11F7C00C0FECC /* SocketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8B8BD523C11F7C00C0FECC /* SocketManager.swift */; };
-		DC8B8BF823C11F7C00C0FECC /* SSLClientCertificate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8B8BD723C11F7C00C0FECC /* SSLClientCertificate.swift */; };
-		DC8B8BF923C11F7C00C0FECC /* Compression.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8B8BD823C11F7C00C0FECC /* Compression.swift */; };
-		DC8B8BFA23C11F7C00C0FECC /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8B8BD923C11F7C00C0FECC /* WebSocket.swift */; };
-		DC8B8BFB23C11F7C00C0FECC /* StarscreamSSLSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8B8BDA23C11F7C00C0FECC /* StarscreamSSLSecurity.swift */; };
-		DC8B8BFC23C11F7C00C0FECC /* SocketEngineClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8B8BDC23C11F7C00C0FECC /* SocketEngineClient.swift */; };
-		DC8B8BFD23C11F7C00C0FECC /* SocketEngineWebsocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8B8BDD23C11F7C00C0FECC /* SocketEngineWebsocket.swift */; };
-		DC8B8BFE23C11F7C00C0FECC /* SocketEnginePollable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8B8BDE23C11F7C00C0FECC /* SocketEnginePollable.swift */; };
-		DC8B8BFF23C11F7C00C0FECC /* SocketEngineSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8B8BDF23C11F7C00C0FECC /* SocketEngineSpec.swift */; };
-		DC8B8C0123C11F7C00C0FECC /* SocketEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8B8BE123C11F7C00C0FECC /* SocketEngine.swift */; };
-		DC8B8C0223C11F7C00C0FECC /* SocketIOClientConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8B8BE323C11F7C00C0FECC /* SocketIOClientConfiguration.swift */; };
-		DC8B8C0323C11F7C00C0FECC /* SocketAnyEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8B8BE423C11F7C00C0FECC /* SocketAnyEvent.swift */; };
-		DC8B8C0423C11F7C00C0FECC /* SocketIOClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8B8BE523C11F7C00C0FECC /* SocketIOClient.swift */; };
-		DC8B8C0523C11F7C00C0FECC /* SocketIOClientOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8B8BE623C11F7C00C0FECC /* SocketIOClientOption.swift */; };
-		DC8B8C0623C11F7C00C0FECC /* SocketEventHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8B8BE723C11F7C00C0FECC /* SocketEventHandler.swift */; };
-		DC8B8C0723C11F7C00C0FECC /* SocketRawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8B8BE823C11F7C00C0FECC /* SocketRawView.swift */; };
-		DC8B8C0823C11F7C00C0FECC /* SocketIOClientSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8B8BE923C11F7C00C0FECC /* SocketIOClientSpec.swift */; };
-		DC8B8C0923C11F7C00C0FECC /* SocketIOStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8B8BEA23C11F7C00C0FECC /* SocketIOStatus.swift */; };
-		DC8B8C0A23C11F7C00C0FECC /* SocketAckManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8B8BEC23C11F7C00C0FECC /* SocketAckManager.swift */; };
-		DC8B8C0B23C11F7C00C0FECC /* SocketAckEmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8B8BED23C11F7C00C0FECC /* SocketAckEmitter.swift */; };
-		DC8B8C2D23C11F8E00C0FECC /* KeyboardManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8B8C0D23C11F8D00C0FECC /* KeyboardManagerDelegate.swift */; };
-		DC8B8C2E23C11F8E00C0FECC /* KeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8B8C0E23C11F8D00C0FECC /* KeyboardManager.swift */; };
-		DC8B8C2F23C11F8E00C0FECC /* AQSocketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8B8C0F23C11F8D00C0FECC /* AQSocketManager.swift */; };
-		DC8B8C3023C11F8E00C0FECC /* SocketModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8B8C1123C11F8D00C0FECC /* SocketModel.swift */; };
-		DC8B8C3123C11F8E00C0FECC /* AQUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8B8C1223C11F8D00C0FECC /* AQUser.swift */; };
-		DC8B8C3223C11F8E00C0FECC /* AQMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8B8C1323C11F8D00C0FECC /* AQMessage.swift */; };
-		DC8B8C3323C11F8E00C0FECC /* AQTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8B8C1523C11F8D00C0FECC /* AQTextView.swift */; };
-		DC8B8C3423C11F8E00C0FECC /* AQTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8B8C1623C11F8D00C0FECC /* AQTextField.swift */; };
-		DC8B8C3523C11F8E00C0FECC /* AQImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8B8C1723C11F8D00C0FECC /* AQImageLoader.swift */; };
-		DC8B8C3623C11F8E00C0FECC /* AQPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8B8C1823C11F8D00C0FECC /* AQPickerView.swift */; };
-		DC8B8C3723C11F8E00C0FECC /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8B8C1923C11F8D00C0FECC /* Extension.swift */; };
-		DC8B8C3823C11F8E00C0FECC /* AQConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8B8C1A23C11F8D00C0FECC /* AQConstants.swift */; };
-		DC8B8C3923C11F8E00C0FECC /* AQChatImageMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8B8C1C23C11F8D00C0FECC /* AQChatImageMessageCell.swift */; };
-		DC8B8C3A23C11F8E00C0FECC /* AQChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8B8C1D23C11F8D00C0FECC /* AQChatViewController.swift */; };
-		DC8B8C3B23C11F8E00C0FECC /* AQChatTextMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8B8C1E23C11F8D00C0FECC /* AQChatTextMessageCell.swift */; };
-		DC8B8C3C23C11F8E00C0FECC /* AQChatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC8B8C1F23C11F8D00C0FECC /* AQChatViewController.xib */; };
-		DC8B8C3D23C11F8E00C0FECC /* seen@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC8B8C2123C11F8D00C0FECC /* seen@3x.png */; };
-		DC8B8C3E23C11F8E00C0FECC /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC8B8C2223C11F8D00C0FECC /* back@2x.png */; };
-		DC8B8C3F23C11F8E00C0FECC /* edit@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC8B8C2323C11F8D00C0FECC /* edit@3x.png */; };
-		DC8B8C4023C11F8E00C0FECC /* edit@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC8B8C2423C11F8D00C0FECC /* edit@2x.png */; };
-		DC8B8C4123C11F8E00C0FECC /* back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC8B8C2523C11F8D00C0FECC /* back@3x.png */; };
-		DC8B8C4223C11F8E00C0FECC /* seen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC8B8C2623C11F8D00C0FECC /* seen@2x.png */; };
-		DC8B8C4323C11F8E00C0FECC /* seen.png in Resources */ = {isa = PBXBuildFile; fileRef = DC8B8C2723C11F8D00C0FECC /* seen.png */; };
-		DC8B8C4423C11F8E00C0FECC /* Path@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC8B8C2823C11F8D00C0FECC /* Path@1x.png */; };
-		DC8B8C4523C11F8E00C0FECC /* Path@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC8B8C2923C11F8D00C0FECC /* Path@3x.png */; };
-		DC8B8C4623C11F8E00C0FECC /* Path@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC8B8C2A23C11F8D00C0FECC /* Path@2x.png */; };
-		DC8B8C4723C11F8E00C0FECC /* edit@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC8B8C2B23C11F8D00C0FECC /* edit@1x.png */; };
-		DC8B8C4823C11F8E00C0FECC /* back@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC8B8C2C23C11F8D00C0FECC /* back@1x.png */; };
-		DC8B8C4B23C11F9900C0FECC /* AQThreadList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8B8C4923C11F9900C0FECC /* AQThreadList.swift */; };
-		DC8B8C4C23C11F9900C0FECC /* AQDynamicForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8B8C4A23C11F9900C0FECC /* AQDynamicForm.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DC8B8BAD23C11D3800C0FECC /* Demo_AQSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Demo_AQSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC8B8BB023C11D3800C0FECC /* Demo_AQSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo_AQSDK.h; sourceTree = "<group>"; };
 		DC8B8BB123C11D3800C0FECC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DC8B8BCA23C11F7C00C0FECC /* SocketStringReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketStringReader.swift; sourceTree = "<group>"; };
-		DC8B8BCB23C11F7C00C0FECC /* SocketLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketLogger.swift; sourceTree = "<group>"; };
-		DC8B8BCC23C11F7C00C0FECC /* SocketExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketExtensions.swift; sourceTree = "<group>"; };
-		DC8B8BCD23C11F7C00C0FECC /* SSLSecurity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSLSecurity.swift; sourceTree = "<group>"; };
-		DC8B8BCE23C11F7C00C0FECC /* SocketTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketTypes.swift; sourceTree = "<group>"; };
-		DC8B8BCF23C11F7C00C0FECC /* SocketEnginePacketType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketEnginePacketType.swift; path = ../SocketEnginePacketType.swift; sourceTree = "<group>"; };
-		DC8B8BD123C11F7C00C0FECC /* SocketParsable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketParsable.swift; sourceTree = "<group>"; };
-		DC8B8BD223C11F7C00C0FECC /* SocketPacket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketPacket.swift; sourceTree = "<group>"; };
-		DC8B8BD423C11F7C00C0FECC /* SocketManagerSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketManagerSpec.swift; sourceTree = "<group>"; };
-		DC8B8BD523C11F7C00C0FECC /* SocketManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketManager.swift; sourceTree = "<group>"; };
-		DC8B8BD723C11F7C00C0FECC /* SSLClientCertificate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSLClientCertificate.swift; sourceTree = "<group>"; };
-		DC8B8BD823C11F7C00C0FECC /* Compression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Compression.swift; sourceTree = "<group>"; };
-		DC8B8BD923C11F7C00C0FECC /* WebSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebSocket.swift; sourceTree = "<group>"; };
-		DC8B8BDA23C11F7C00C0FECC /* StarscreamSSLSecurity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarscreamSSLSecurity.swift; sourceTree = "<group>"; };
-		DC8B8BDC23C11F7C00C0FECC /* SocketEngineClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketEngineClient.swift; sourceTree = "<group>"; };
-		DC8B8BDD23C11F7C00C0FECC /* SocketEngineWebsocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketEngineWebsocket.swift; sourceTree = "<group>"; };
-		DC8B8BDE23C11F7C00C0FECC /* SocketEnginePollable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketEnginePollable.swift; sourceTree = "<group>"; };
-		DC8B8BDF23C11F7C00C0FECC /* SocketEngineSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketEngineSpec.swift; sourceTree = "<group>"; };
-		DC8B8BE123C11F7C00C0FECC /* SocketEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketEngine.swift; sourceTree = "<group>"; };
-		DC8B8BE323C11F7C00C0FECC /* SocketIOClientConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketIOClientConfiguration.swift; sourceTree = "<group>"; };
-		DC8B8BE423C11F7C00C0FECC /* SocketAnyEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketAnyEvent.swift; sourceTree = "<group>"; };
-		DC8B8BE523C11F7C00C0FECC /* SocketIOClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketIOClient.swift; sourceTree = "<group>"; };
-		DC8B8BE623C11F7C00C0FECC /* SocketIOClientOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketIOClientOption.swift; sourceTree = "<group>"; };
-		DC8B8BE723C11F7C00C0FECC /* SocketEventHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketEventHandler.swift; sourceTree = "<group>"; };
-		DC8B8BE823C11F7C00C0FECC /* SocketRawView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketRawView.swift; sourceTree = "<group>"; };
-		DC8B8BE923C11F7C00C0FECC /* SocketIOClientSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketIOClientSpec.swift; sourceTree = "<group>"; };
-		DC8B8BEA23C11F7C00C0FECC /* SocketIOStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketIOStatus.swift; sourceTree = "<group>"; };
-		DC8B8BEC23C11F7C00C0FECC /* SocketAckManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketAckManager.swift; sourceTree = "<group>"; };
-		DC8B8BED23C11F7C00C0FECC /* SocketAckEmitter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketAckEmitter.swift; sourceTree = "<group>"; };
-		DC8B8C0D23C11F8D00C0FECC /* KeyboardManagerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardManagerDelegate.swift; sourceTree = "<group>"; };
-		DC8B8C0E23C11F8D00C0FECC /* KeyboardManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardManager.swift; sourceTree = "<group>"; };
-		DC8B8C0F23C11F8D00C0FECC /* AQSocketManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AQSocketManager.swift; sourceTree = "<group>"; };
-		DC8B8C1123C11F8D00C0FECC /* SocketModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketModel.swift; sourceTree = "<group>"; };
-		DC8B8C1223C11F8D00C0FECC /* AQUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AQUser.swift; sourceTree = "<group>"; };
-		DC8B8C1323C11F8D00C0FECC /* AQMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AQMessage.swift; sourceTree = "<group>"; };
-		DC8B8C1523C11F8D00C0FECC /* AQTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AQTextView.swift; sourceTree = "<group>"; };
-		DC8B8C1623C11F8D00C0FECC /* AQTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AQTextField.swift; sourceTree = "<group>"; };
-		DC8B8C1723C11F8D00C0FECC /* AQImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AQImageLoader.swift; sourceTree = "<group>"; };
-		DC8B8C1823C11F8D00C0FECC /* AQPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AQPickerView.swift; sourceTree = "<group>"; };
-		DC8B8C1923C11F8D00C0FECC /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
-		DC8B8C1A23C11F8D00C0FECC /* AQConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AQConstants.swift; sourceTree = "<group>"; };
-		DC8B8C1C23C11F8D00C0FECC /* AQChatImageMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AQChatImageMessageCell.swift; sourceTree = "<group>"; };
-		DC8B8C1D23C11F8D00C0FECC /* AQChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AQChatViewController.swift; sourceTree = "<group>"; };
-		DC8B8C1E23C11F8D00C0FECC /* AQChatTextMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AQChatTextMessageCell.swift; sourceTree = "<group>"; };
-		DC8B8C1F23C11F8D00C0FECC /* AQChatViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AQChatViewController.xib; sourceTree = "<group>"; };
-		DC8B8C2123C11F8D00C0FECC /* seen@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "seen@3x.png"; sourceTree = "<group>"; };
-		DC8B8C2223C11F8D00C0FECC /* back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@2x.png"; sourceTree = "<group>"; };
-		DC8B8C2323C11F8D00C0FECC /* edit@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "edit@3x.png"; sourceTree = "<group>"; };
-		DC8B8C2423C11F8D00C0FECC /* edit@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "edit@2x.png"; sourceTree = "<group>"; };
-		DC8B8C2523C11F8D00C0FECC /* back@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@3x.png"; sourceTree = "<group>"; };
-		DC8B8C2623C11F8D00C0FECC /* seen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "seen@2x.png"; sourceTree = "<group>"; };
-		DC8B8C2723C11F8D00C0FECC /* seen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = seen.png; sourceTree = "<group>"; };
-		DC8B8C2823C11F8D00C0FECC /* Path@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Path@1x.png"; sourceTree = "<group>"; };
-		DC8B8C2923C11F8D00C0FECC /* Path@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Path@3x.png"; sourceTree = "<group>"; };
-		DC8B8C2A23C11F8D00C0FECC /* Path@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Path@2x.png"; sourceTree = "<group>"; };
-		DC8B8C2B23C11F8D00C0FECC /* edit@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "edit@1x.png"; sourceTree = "<group>"; };
-		DC8B8C2C23C11F8D00C0FECC /* back@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@1x.png"; sourceTree = "<group>"; };
-		DC8B8C4923C11F9900C0FECC /* AQThreadList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AQThreadList.swift; sourceTree = "<group>"; };
-		DC8B8C4A23C11F9900C0FECC /* AQDynamicForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AQDynamicForm.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,174 +46,10 @@
 		DC8B8BAF23C11D3800C0FECC /* Demo AQSDK */ = {
 			isa = PBXGroup;
 			children = (
-				DC8B8C1B23C11F8D00C0FECC /* AQChat */,
-				DC8B8C1423C11F8D00C0FECC /* AQHelperUtility */,
-				DC8B8C2023C11F8D00C0FECC /* images */,
-				DC8B8C1023C11F8D00C0FECC /* Model */,
-				DC8B8C0C23C11F8D00C0FECC /* SocketManager */,
 				DC8B8BB023C11D3800C0FECC /* Demo_AQSDK.h */,
-				DC8B8C4A23C11F9900C0FECC /* AQDynamicForm.swift */,
-				DC8B8C4923C11F9900C0FECC /* AQThreadList.swift */,
 				DC8B8BB123C11D3800C0FECC /* Info.plist */,
-				DC8B8BC823C11F7C00C0FECC /* SocketIO */,
 			);
 			path = "Demo AQSDK";
-			sourceTree = "<group>";
-		};
-		DC8B8BC823C11F7C00C0FECC /* SocketIO */ = {
-			isa = PBXGroup;
-			children = (
-				DC8B8BC923C11F7C00C0FECC /* Util */,
-				DC8B8BD023C11F7C00C0FECC /* Parse */,
-				DC8B8BD323C11F7C00C0FECC /* Manager */,
-				DC8B8BD623C11F7C00C0FECC /* Starscream */,
-				DC8B8BDB23C11F7C00C0FECC /* Engine */,
-				DC8B8BE223C11F7C00C0FECC /* Client */,
-				DC8B8BEB23C11F7C00C0FECC /* Ack */,
-			);
-			name = SocketIO;
-			path = "../../../Acquire-sdkdemo/Acquire-sdk/Acquire-sdk/SocketIO";
-			sourceTree = "<group>";
-		};
-		DC8B8BC923C11F7C00C0FECC /* Util */ = {
-			isa = PBXGroup;
-			children = (
-				DC8B8BCA23C11F7C00C0FECC /* SocketStringReader.swift */,
-				DC8B8BCB23C11F7C00C0FECC /* SocketLogger.swift */,
-				DC8B8BCC23C11F7C00C0FECC /* SocketExtensions.swift */,
-				DC8B8BCD23C11F7C00C0FECC /* SSLSecurity.swift */,
-				DC8B8BCE23C11F7C00C0FECC /* SocketTypes.swift */,
-			);
-			path = Util;
-			sourceTree = "<group>";
-		};
-		DC8B8BD023C11F7C00C0FECC /* Parse */ = {
-			isa = PBXGroup;
-			children = (
-				DC8B8BD123C11F7C00C0FECC /* SocketParsable.swift */,
-				DC8B8BD223C11F7C00C0FECC /* SocketPacket.swift */,
-			);
-			path = Parse;
-			sourceTree = "<group>";
-		};
-		DC8B8BD323C11F7C00C0FECC /* Manager */ = {
-			isa = PBXGroup;
-			children = (
-				DC8B8BD423C11F7C00C0FECC /* SocketManagerSpec.swift */,
-				DC8B8BD523C11F7C00C0FECC /* SocketManager.swift */,
-			);
-			path = Manager;
-			sourceTree = "<group>";
-		};
-		DC8B8BD623C11F7C00C0FECC /* Starscream */ = {
-			isa = PBXGroup;
-			children = (
-				DC8B8BD723C11F7C00C0FECC /* SSLClientCertificate.swift */,
-				DC8B8BD823C11F7C00C0FECC /* Compression.swift */,
-				DC8B8BD923C11F7C00C0FECC /* WebSocket.swift */,
-				DC8B8BDA23C11F7C00C0FECC /* StarscreamSSLSecurity.swift */,
-			);
-			path = Starscream;
-			sourceTree = "<group>";
-		};
-		DC8B8BDB23C11F7C00C0FECC /* Engine */ = {
-			isa = PBXGroup;
-			children = (
-				DC8B8BCF23C11F7C00C0FECC /* SocketEnginePacketType.swift */,
-				DC8B8BDC23C11F7C00C0FECC /* SocketEngineClient.swift */,
-				DC8B8BDD23C11F7C00C0FECC /* SocketEngineWebsocket.swift */,
-				DC8B8BDE23C11F7C00C0FECC /* SocketEnginePollable.swift */,
-				DC8B8BDF23C11F7C00C0FECC /* SocketEngineSpec.swift */,
-				DC8B8BE123C11F7C00C0FECC /* SocketEngine.swift */,
-			);
-			path = Engine;
-			sourceTree = "<group>";
-		};
-		DC8B8BE223C11F7C00C0FECC /* Client */ = {
-			isa = PBXGroup;
-			children = (
-				DC8B8BE323C11F7C00C0FECC /* SocketIOClientConfiguration.swift */,
-				DC8B8BE423C11F7C00C0FECC /* SocketAnyEvent.swift */,
-				DC8B8BE523C11F7C00C0FECC /* SocketIOClient.swift */,
-				DC8B8BE623C11F7C00C0FECC /* SocketIOClientOption.swift */,
-				DC8B8BE723C11F7C00C0FECC /* SocketEventHandler.swift */,
-				DC8B8BE823C11F7C00C0FECC /* SocketRawView.swift */,
-				DC8B8BE923C11F7C00C0FECC /* SocketIOClientSpec.swift */,
-				DC8B8BEA23C11F7C00C0FECC /* SocketIOStatus.swift */,
-			);
-			path = Client;
-			sourceTree = "<group>";
-		};
-		DC8B8BEB23C11F7C00C0FECC /* Ack */ = {
-			isa = PBXGroup;
-			children = (
-				DC8B8BEC23C11F7C00C0FECC /* SocketAckManager.swift */,
-				DC8B8BED23C11F7C00C0FECC /* SocketAckEmitter.swift */,
-			);
-			path = Ack;
-			sourceTree = "<group>";
-		};
-		DC8B8C0C23C11F8D00C0FECC /* SocketManager */ = {
-			isa = PBXGroup;
-			children = (
-				DC8B8C0D23C11F8D00C0FECC /* KeyboardManagerDelegate.swift */,
-				DC8B8C0E23C11F8D00C0FECC /* KeyboardManager.swift */,
-				DC8B8C0F23C11F8D00C0FECC /* AQSocketManager.swift */,
-			);
-			path = SocketManager;
-			sourceTree = "<group>";
-		};
-		DC8B8C1023C11F8D00C0FECC /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				DC8B8C1123C11F8D00C0FECC /* SocketModel.swift */,
-				DC8B8C1223C11F8D00C0FECC /* AQUser.swift */,
-				DC8B8C1323C11F8D00C0FECC /* AQMessage.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		DC8B8C1423C11F8D00C0FECC /* AQHelperUtility */ = {
-			isa = PBXGroup;
-			children = (
-				DC8B8C1523C11F8D00C0FECC /* AQTextView.swift */,
-				DC8B8C1623C11F8D00C0FECC /* AQTextField.swift */,
-				DC8B8C1723C11F8D00C0FECC /* AQImageLoader.swift */,
-				DC8B8C1823C11F8D00C0FECC /* AQPickerView.swift */,
-				DC8B8C1923C11F8D00C0FECC /* Extension.swift */,
-				DC8B8C1A23C11F8D00C0FECC /* AQConstants.swift */,
-			);
-			path = AQHelperUtility;
-			sourceTree = "<group>";
-		};
-		DC8B8C1B23C11F8D00C0FECC /* AQChat */ = {
-			isa = PBXGroup;
-			children = (
-				DC8B8C1C23C11F8D00C0FECC /* AQChatImageMessageCell.swift */,
-				DC8B8C1D23C11F8D00C0FECC /* AQChatViewController.swift */,
-				DC8B8C1E23C11F8D00C0FECC /* AQChatTextMessageCell.swift */,
-				DC8B8C1F23C11F8D00C0FECC /* AQChatViewController.xib */,
-			);
-			path = AQChat;
-			sourceTree = "<group>";
-		};
-		DC8B8C2023C11F8D00C0FECC /* images */ = {
-			isa = PBXGroup;
-			children = (
-				DC8B8C2123C11F8D00C0FECC /* seen@3x.png */,
-				DC8B8C2223C11F8D00C0FECC /* back@2x.png */,
-				DC8B8C2323C11F8D00C0FECC /* edit@3x.png */,
-				DC8B8C2423C11F8D00C0FECC /* edit@2x.png */,
-				DC8B8C2523C11F8D00C0FECC /* back@3x.png */,
-				DC8B8C2623C11F8D00C0FECC /* seen@2x.png */,
-				DC8B8C2723C11F8D00C0FECC /* seen.png */,
-				DC8B8C2823C11F8D00C0FECC /* Path@1x.png */,
-				DC8B8C2923C11F8D00C0FECC /* Path@3x.png */,
-				DC8B8C2A23C11F8D00C0FECC /* Path@2x.png */,
-				DC8B8C2B23C11F8D00C0FECC /* edit@1x.png */,
-				DC8B8C2C23C11F8D00C0FECC /* back@1x.png */,
-			);
-			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -377,7 +95,6 @@
 				TargetAttributes = {
 					DC8B8BAC23C11D3800C0FECC = {
 						CreatedOnToolsVersion = 11.2.1;
-						LastSwiftMigration = 1120;
 					};
 				};
 			};
@@ -404,19 +121,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC8B8C4523C11F8E00C0FECC /* Path@3x.png in Resources */,
-				DC8B8C4223C11F8E00C0FECC /* seen@2x.png in Resources */,
-				DC8B8C4823C11F8E00C0FECC /* back@1x.png in Resources */,
-				DC8B8C3D23C11F8E00C0FECC /* seen@3x.png in Resources */,
-				DC8B8C3C23C11F8E00C0FECC /* AQChatViewController.xib in Resources */,
-				DC8B8C4623C11F8E00C0FECC /* Path@2x.png in Resources */,
-				DC8B8C4123C11F8E00C0FECC /* back@3x.png in Resources */,
-				DC8B8C3E23C11F8E00C0FECC /* back@2x.png in Resources */,
-				DC8B8C4423C11F8E00C0FECC /* Path@1x.png in Resources */,
-				DC8B8C4023C11F8E00C0FECC /* edit@2x.png in Resources */,
-				DC8B8C4723C11F8E00C0FECC /* edit@1x.png in Resources */,
-				DC8B8C4323C11F8E00C0FECC /* seen.png in Resources */,
-				DC8B8C3F23C11F8E00C0FECC /* edit@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,52 +131,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC8B8C3623C11F8E00C0FECC /* AQPickerView.swift in Sources */,
-				DC8B8C3823C11F8E00C0FECC /* AQConstants.swift in Sources */,
-				DC8B8C0923C11F7C00C0FECC /* SocketIOStatus.swift in Sources */,
-				DC8B8BEF23C11F7C00C0FECC /* SocketLogger.swift in Sources */,
-				DC8B8BF823C11F7C00C0FECC /* SSLClientCertificate.swift in Sources */,
-				DC8B8C0223C11F7C00C0FECC /* SocketIOClientConfiguration.swift in Sources */,
-				DC8B8C3A23C11F8E00C0FECC /* AQChatViewController.swift in Sources */,
-				DC8B8BEE23C11F7C00C0FECC /* SocketStringReader.swift in Sources */,
-				DC8B8C0823C11F7C00C0FECC /* SocketIOClientSpec.swift in Sources */,
-				DC8B8C0323C11F7C00C0FECC /* SocketAnyEvent.swift in Sources */,
-				DC8B8BFF23C11F7C00C0FECC /* SocketEngineSpec.swift in Sources */,
-				DC8B8C0523C11F7C00C0FECC /* SocketIOClientOption.swift in Sources */,
-				DC8B8C4C23C11F9900C0FECC /* AQDynamicForm.swift in Sources */,
-				DC8B8BF223C11F7C00C0FECC /* SocketTypes.swift in Sources */,
-				DC8B8BF123C11F7C00C0FECC /* SSLSecurity.swift in Sources */,
-				DC8B8C3023C11F8E00C0FECC /* SocketModel.swift in Sources */,
-				DC8B8C3223C11F8E00C0FECC /* AQMessage.swift in Sources */,
-				DC8B8C0423C11F7C00C0FECC /* SocketIOClient.swift in Sources */,
-				DC8B8BF723C11F7C00C0FECC /* SocketManager.swift in Sources */,
-				DC8B8C0623C11F7C00C0FECC /* SocketEventHandler.swift in Sources */,
-				DC8B8BF923C11F7C00C0FECC /* Compression.swift in Sources */,
-				DC8B8BF323C11F7C00C0FECC /* SocketEnginePacketType.swift in Sources */,
-				DC8B8C2F23C11F8E00C0FECC /* AQSocketManager.swift in Sources */,
-				DC8B8BF023C11F7C00C0FECC /* SocketExtensions.swift in Sources */,
-				DC8B8C0723C11F7C00C0FECC /* SocketRawView.swift in Sources */,
-				DC8B8C0A23C11F7C00C0FECC /* SocketAckManager.swift in Sources */,
-				DC8B8C2D23C11F8E00C0FECC /* KeyboardManagerDelegate.swift in Sources */,
-				DC8B8C3123C11F8E00C0FECC /* AQUser.swift in Sources */,
-				DC8B8BFA23C11F7C00C0FECC /* WebSocket.swift in Sources */,
-				DC8B8C4B23C11F9900C0FECC /* AQThreadList.swift in Sources */,
-				DC8B8C0B23C11F7C00C0FECC /* SocketAckEmitter.swift in Sources */,
-				DC8B8BF523C11F7C00C0FECC /* SocketPacket.swift in Sources */,
-				DC8B8C3B23C11F8E00C0FECC /* AQChatTextMessageCell.swift in Sources */,
-				DC8B8BF623C11F7C00C0FECC /* SocketManagerSpec.swift in Sources */,
-				DC8B8C3523C11F8E00C0FECC /* AQImageLoader.swift in Sources */,
-				DC8B8BFD23C11F7C00C0FECC /* SocketEngineWebsocket.swift in Sources */,
-				DC8B8C3723C11F8E00C0FECC /* Extension.swift in Sources */,
-				DC8B8BF423C11F7C00C0FECC /* SocketParsable.swift in Sources */,
-				DC8B8C3923C11F8E00C0FECC /* AQChatImageMessageCell.swift in Sources */,
-				DC8B8C3323C11F8E00C0FECC /* AQTextView.swift in Sources */,
-				DC8B8C0123C11F7C00C0FECC /* SocketEngine.swift in Sources */,
-				DC8B8C2E23C11F8E00C0FECC /* KeyboardManager.swift in Sources */,
-				DC8B8BFC23C11F7C00C0FECC /* SocketEngineClient.swift in Sources */,
-				DC8B8C3423C11F8E00C0FECC /* AQTextField.swift in Sources */,
-				DC8B8BFE23C11F7C00C0FECC /* SocketEnginePollable.swift in Sources */,
-				DC8B8BFB23C11F7C00C0FECC /* StarscreamSSLSecurity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -602,7 +260,6 @@
 		DC8B8BB623C11D3800C0FECC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -618,7 +275,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.acquire-sdk.Demo-AQSDK";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -627,7 +283,6 @@
 		DC8B8BB723C11D3800C0FECC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
